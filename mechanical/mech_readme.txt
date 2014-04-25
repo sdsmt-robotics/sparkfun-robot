@@ -1,0 +1,1 @@
+All parts should be modelled, and 3d printed parts should be exported to stls.
