@@ -3,4 +3,4 @@ Use these parameters to get the IMU to read correctly:
 _axis_config:="xzy" _invert_x_axis:=false _invert_y_axis:=false _invert_z_axis:=false
 
 The x and z are default false, y is default true
-default axis_config is "yxz"
+default axis_config is "yzx"
