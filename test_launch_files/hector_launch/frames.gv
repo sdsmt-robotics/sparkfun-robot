@@ -1,0 +1,10 @@
+digraph G {
+"base_footprint" -> "base_link"[label="Broadcaster: /hector_mapping\nAverage rate: 81.704 Hz\nMost recent transform: 1402167686.385 \nBuffer length: 5.446 sec\n"];
+"base_link" -> "back_left_wheel"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.209 Hz\nMost recent transform: 1402167686.385 \nBuffer length: 4.919 sec\n"];
+"base_link" -> "back_right_wheel"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.209 Hz\nMost recent transform: 1402167686.385 \nBuffer length: 4.919 sec\n"];
+"base_link" -> "gps"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.209 Hz\nMost recent transform: 1402167686.385 \nBuffer length: 4.919 sec\n"];
+"base_link" -> "imu"[label="Broadcaster: /hector_mapping\nAverage rate: 81.704 Hz\nMost recent transform: 1402167686.385 \nBuffer length: 5.446 sec\n"];
+"base_link" -> "laser"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.209 Hz\nMost recent transform: 1402167686.385 \nBuffer length: 4.919 sec\n"];
+"base_link" -> "front_left_wheel"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.208 Hz\nMost recent transform: 1402167685.797 \nBuffer length: 4.800 sec\n"];
+"base_link" -> "front_right_wheel"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.208 Hz\nMost recent transform: 1402167685.797 \nBuffer length: 4.800 sec\n"];
+}

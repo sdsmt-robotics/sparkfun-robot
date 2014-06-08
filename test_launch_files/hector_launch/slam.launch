@@ -1,0 +1,13 @@
+<launch>
+
+<param name="/use_sim_time" value="false"/>ros
+
+<node pkg="rviz" type="rviz" name="rviz" />
+
+<include file="hector_mapping.launch"/>
+
+<include file="geotiff_mapper.launch">
+<arg name="trajectory_source_frame_name" value="laser"/> 
+</include>
+
+</launch>
